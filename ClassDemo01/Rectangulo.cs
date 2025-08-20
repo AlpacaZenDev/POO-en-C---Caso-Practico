@@ -11,8 +11,8 @@
 
             public Rectangulo()
             {
-                baseRectangulo = 0;
-                alturaRectangulo = 0;
+                baseRectangulo = 15;
+                alturaRectangulo = 3;
                 colorRectangulo = "Negro";
             }
 

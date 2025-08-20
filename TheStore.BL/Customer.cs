@@ -25,7 +25,7 @@ namespace TheStore.BL
         // Get All
         public List<Customer> GetAll()
         {
-            return new List<Customer>;
+            return new List<Customer>();
         }
 
         // Get by id
