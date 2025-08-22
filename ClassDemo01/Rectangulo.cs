@@ -16,6 +16,14 @@
                 colorRectangulo = "Negro";
             }
 
+            // Sobrecarga:
+            public Rectangulo(double baseRectanguloInicial,
+                double alturaRectanguloInicial)
+            {
+                baseRectangulo = baseRectanguloInicial;
+                alturaRectangulo = alturaRectanguloInicial;
+            }
+
             // métodos:
             public double CalcularArea()
             {
