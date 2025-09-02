@@ -33,6 +33,13 @@
             {
                 return 2 * (alturaRectangulo + baseRectangulo);
             }
+
+            // Deconstructor
+            public void Deconstruct(out double baseRect, out double alturaRect)
+            {
+                baseRect = baseRectangulo;
+                alturaRect = alturaRectangulo;
+            }
         }
     }
 }
